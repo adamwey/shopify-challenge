@@ -5,4 +5,4 @@
 
 # Envrionment Variables
 
-- Updated the `.env.exmaple` file and add your API Key from [**OMBd API**](https://www.omdbapi.com/)
+- Update the `.env.exmaple` file and add your API Key from [**OMBd API**](https://www.omdbapi.com/)
