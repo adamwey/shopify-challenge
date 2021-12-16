@@ -5,4 +5,4 @@
 
 #### Envrionment Variables
 
-- To run it locally, update the `.env.exmaple` file and add your API Key from [**OMBd API**](https://www.omdbapi.com/)
+- To run it locally, update the `.env.exmaple` file to `.env` and add your API Key from [**OMBd API**](https://www.omdbapi.com/)
