@@ -77,11 +77,11 @@ function App() {
   }
 
   return (
-    <main className='bg-black bg-opacity-[95%] min-h-screen text-grey-100'>
+    <main className='bg-black bg-opacity-[95%] min-h-screen text-grey-100 px-4 lg:px-0'>
       <div className='max-w-screen-lg py-12 mx-auto space-y-8'>
         <Header />
 
-        <div className='flex space-x-4'>
+        <div className='flex flex-col space-y-4 lg:space-x-4 lg:flex-row lg:space-y-0'>
           <div className='flex flex-col flex-1 space-y-4'>
             <Search
               query={query}

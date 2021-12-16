@@ -14,7 +14,7 @@ export function Nominations({
   resetNominations,
 }: NominationsProps) {
   return (
-    <div className='sticky flex flex-col w-full h-full max-w-sm p-4 border rounded-md top-10 border-grey-700 bg-grey-900'>
+    <div className='flex flex-col w-full h-full p-4 border rounded-md lg:max-w-sm lg:sticky lg:top-10 border-grey-700 bg-grey-900'>
       <div className='mb-4'>
         <h2 className='font-semibold'>Your nominations</h2>
         <p className='text-sm text-grey-400'>

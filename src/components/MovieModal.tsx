@@ -63,8 +63,8 @@ export function MovieModal({ isOpen, closeModal, movieId }: MovieModalProps) {
               {isLoading && <LoadingSpinner />}
 
               {movieData && (
-                <div className='flex space-x-4'>
-                  <div>
+                <div className='flex flex-col space-x-4 md:flex-row'>
+                  <div className='pl-4 mb-4'>
                     <img
                       src={movieData?.poster}
                       className='w-52'
@@ -74,7 +74,10 @@ export function MovieModal({ isOpen, closeModal, movieId }: MovieModalProps) {
                   <div className='flex flex-col w-full'>
                     <div className='w-full'>
                       <div className='flex items-center justify-between'>
-                        <Dialog.Title as='h2' className='text-lg font-semibold'>
+                        <Dialog.Title
+                          as='h2'
+                          className='text-sm font-semibold md:text-lg'
+                        >
                           {movieData?.title}
                         </Dialog.Title>
                         <span className='flex items-center text-sm text-grey-500'>
@@ -90,7 +93,7 @@ export function MovieModal({ isOpen, closeModal, movieId }: MovieModalProps) {
                     </div>
 
                     <table className='mt-6 table-auto'>
-                      <tbody className='flex flex-col space-y-2'>
+                      <tbody className='flex flex-col space-y-2 text-xs md:text-sm'>
                         <tr className='flex'>
                           <td className='inline-block w-20 mr-4 text-xs font-bold tracking-wide uppercase'>
                             Plot
