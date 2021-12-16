@@ -1,0 +1,16 @@
+export const formatMovie = (movieData: any): MovieData => ({
+  poster: movieData.Poster,
+  title: movieData.Title,
+  year: movieData.Year,
+  director: movieData.Director,
+  actors: movieData.Actors,
+  plot: movieData.Plot,
+  awards: movieData.Awards,
+  imdbID: movieData.imdbID,
+  type: movieData.Type,
+  imdbRating: movieData.imdbRating,
+  writer: movieData.Writer,
+  genre: movieData.Genre,
+  released: movieData.Released,
+  rated: movieData.Rated,
+});
